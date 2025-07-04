@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(196, 196, 196);
+}
+.encabezado, .div1{
+    display: block;
+    border: 10px;
+}
+#encabezado{
+    position: relative;
+    top: 0%;
+    width: 100%;
+    text-align: center;
+    margin: 0%;
+    background-color: aliceblue;
+    padding: 10px;
+}
+.post {
+    background: aliceblue;
+    position: relative;
+    width: 600px;
+    height: auto;
+    margin: 50px auto 0;
+}
+.phototitle {
+    float: left;
+    padding-left: 15px;
+}
+.photodate {
+    float: right;
+    padding-right: 15px;
+    color: rgb(173, 171, 171);
+}
+.photo {
+    width: 100%;
+}
+.photocomment {
+    font-size: large;
+    padding: 15px;
+}
