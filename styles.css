@@ -1,18 +1,21 @@
 body{
     background-color: rgb(196, 196, 196);
+    margin: 0;
 }
 .encabezado, .div1{
     display: block;
     border: 10px;
 }
 #encabezado{
-    position: relative;
-    top: 0%;
-    width: 100%;
-    text-align: center;
-    margin: 0%;
     background-color: aliceblue;
-    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#encabezado h1{
+    width: 600px;
+    display: flex;
+    justify-content: start;
 }
 .post {
     background: aliceblue;
